@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>Open NeedIt records of a user-specified Request type</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Specified Request Type</name>
+        <query_condition table="x_58872_needit_needit">active=true^u_request_type={{Req type}}^u_requested_for={{Req for}}^u_when_neededON{{Start date}}^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="{{Req type}}" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="{{Req type}}"/>
+            <item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="=" or="false" value="{{Req for}}"/>
+            <item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="{{Start date}}"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 21:30:23</sys_created_on>
+        <sys_id>9044ddd8076110101f09f2ae7c1ed0ad</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Specified Request Type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_9044ddd8076110101f09f2ae7c1ed0ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-17 23:26:09</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=9044ddd8076110101f09f2ae7c1ed0ad"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>363f12dddb02db80cbf6d5b0cf961928</instance_id>
+        <instance_name>dev59222</instance_name>
+        <name>sys_sg_data_item_9044ddd8076110101f09f2ae7c1ed0ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>Open NeedIt records of a user-specified Request type</description><group_by/><instance_relative_url_qc/><name>Specified Request Type</name><query_condition table="x_58872_needit_needit">active=true^u_request_type={{Req type}}^u_requested_for={{Req for}}^u_when_neededON{{Start date}}^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item display_value="{{Req type}}" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="{{Req type}}"/><item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="=" or="false" value="{{Req for}}"/><item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="{{Start date}}"/><item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-17 21:30:23</sys_created_on><sys_id>9044ddd8076110101f09f2ae7c1ed0ad</sys_id><sys_mod_count>13</sys_mod_count><sys_name>Specified Request Type</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_data_item_9044ddd8076110101f09f2ae7c1ed0ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-17 23:26:09</sys_updated_on><table>x_58872_needit_needit</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=9044ddd8076110101f09f2ae7c1ed0ad"/></record_update>]]></payload>
+        <payload_hash>-1911965328</payload_hash>
+        <record_name>Specified Request Type</record_name>
+        <reverted_from/>
+        <source>8a9fe094072110101f09f2ae7c1ed059</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 23:26:09</sys_created_on>
+        <sys_id>40ce619c07a110101f09f2ae7c1ed046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172c49aa96e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-17 23:26:09</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>88ce619ca9a110104da0470cf26ff945</update_guid>
+        <update_guid_history>88ce619ca9a110104da0470cf26ff945:-1911965328,d8beed5c1fa11010d0d860f34f506933:1664643049,5fea6d989ca11010a14643734ab3f0bb:-1911965328,58ca219870a11010defbcf6a07e5ba41:721623488,87aa6598c2a11010061090eb50a69d70:647554392,5139a1987aa110100e4008f025084cf2:721623488,00192558b0a1101002c336fd5599e647:336936110,a9a56dd4fda11010c6125c7a621380b9:404872966,c985a5d4f5a1101062678dd3cdfe202e:684237927,f74565d4fea11010b9de2a55fca4abfb:1968770513,48b4115c376110102d96664f7b7f2a40:-830263408,d044ddd8cf611010211fd5b3836808af:-562984281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-17 23:32:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>1df13db54d284bc0abff68d7d2145004</sys_id>
+        <sys_metadata>9044ddd8076110101f09f2ae7c1ed0ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Specified Request Type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_9044ddd8076110101f09f2ae7c1ed0ad</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_9044ddd8076110101f09f2ae7c1ed0ad">40ce619c07a110101f09f2ae7c1ed046</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-17 23:32:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
